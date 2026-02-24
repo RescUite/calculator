@@ -1,8 +1,8 @@
 try:
     a = float(input("первое число: "))
     b = float(input("второе число: "))
-except ValueError:(
-            print("вводить можно только числа"))
+except ValueError:
+            print("вводить можно только числа")
 else:
     operation = input("операция (+, -, *, /): ")
     if operation == "+":
@@ -17,4 +17,5 @@ else:
         else:
             print(a/b)
     else:
+
         print("неизвестная операция")
